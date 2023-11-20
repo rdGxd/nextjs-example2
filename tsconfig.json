@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
+    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "moduleResolution": "node",
     "jsx": "preserve",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "baseUrl": "src"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Footer/Footer.test.jsx", "jest.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

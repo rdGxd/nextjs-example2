@@ -1,5 +1,5 @@
 export default {
-  url: "https://landing-pages-strapi-api.onrender.com/api/pages/?populate=deep",
-  siteName: "Rodrigo Silva",
-  defaultSlug: "landing-page",
+  url: 'https://strapi-v4-test.herokuapp.com/api/pages/?populate=deep&',
+  siteName: 'Otávio Miranda',
+  defaultSlug: 'landing-page',
 };
